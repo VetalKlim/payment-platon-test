@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/main.css">
-    <title>Payment</title>
+    <title>Оплата</title>
 </head>
 <body>
 <div>
@@ -21,12 +21,12 @@
         </div>
     </header>
     <main class="container">
-        <h3 class="head">Payment</h3>
+        <h3 class="head">Оплата</h3>
         <div class="panel">
             <form class="form" action="/" id="form-payment">
                 <div class="info-credit">
-                    <p class="info-credit__text">Contract № 568046</p>
-                    <p class="info-credit__text">Loan repayment in the amount of: :
+                    <p class="info-credit__text">Договор № 568046</p>
+                    <p class="info-credit__text">Оплата кредита на сумму :
                         <span class="amount-credit">1050 грн</span>
                     </p>
                 </div>
@@ -41,21 +41,21 @@
                 </div>
                 <div class="position-validity">
                     <div class="position-input validity" id="password-block">
-                        <label class="label" id="label-password">CVC code</label>
+                        <label class="label" id="label-password">CVС код</label>
                         <input class="form-input" required name="cvv2" type="password" inputmode="numeric" autocomplete="cc-csc" id="password_cvv" maxlength="3">
                     </div>
                 </div>
                 <div class="error-block">
-                    <span class="error__text" id="err-system">*System error</span>
-                    <span class="error__text" id="err-cvv">Please enter the correct CVC code</span>
+                    <span class="error__text" id="err-system">*Системная ошибка</span>
+                    <span class="error__text" id="err-cvv">Пожалуйста, введите корректный CVС код</span>
                 </div>
                 <div class="information">
                                 <span class="information__text">
-                                  In case of unsuccessful payment, contact support
+                                  В случае неуспешного платежа, обратитесь с службу поддержки
                                 </span>
                 </div>
                 <div class="btn-position">
-                    <button class="btn-primary" type="submit" id="click-payment">Pay</button>
+                    <button class="btn-primary" type="submit" id="click-payment">Оплатить</button>
                 </div>
             </form>
         </div>
